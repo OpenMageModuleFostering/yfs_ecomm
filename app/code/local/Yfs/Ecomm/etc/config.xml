@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Yfs_Ecomm>
+            <version>0.1.0</version>
+        </Yfs_Ecomm>
+    </modules>
+    <global>
+        <models>
+            <ecomm>
+                <class>Yfs_Ecomm_Model</class>
+            </ecomm>
+        </models>
+        <helpers>
+            <ecomm>
+                <class>Yfs_Ecomm_Helper</class>
+            </ecomm>
+        </helpers>
+    </global>
+</config>

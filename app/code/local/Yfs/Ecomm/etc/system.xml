@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+    	<ecomm translate="label" module="ecomm">
+            <label>Orderhive Integration</label>
+            <sort_order>200</sort_order>
+        </ecomm>
+    </tabs>
+    <sections>
+        <ecomm translate="label" module="ecomm">
+            <class>separator-top</class>
+            <label>Settings</label>
+            <tab>ecomm</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>100</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <ecomm translate="label">
+                    <label>Orderhive Integration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <allow translate="label">
+                            <label>Enable</label>
+                            <comment>
+                            <![CDATA[Allow Orderhive to access Products, Customers and Orders. 
+                                <span style="float: left; display: block; width: 100%;font-size:11px;color:#2F2F2F;margin-top:5px;">
+                                    Orderhive Magento extension is successfully installed!
+                                </span>
+                                <span style="float: left; display: block; width: 100%;font-size:11px;color:#2F2F2F;margin-top:5px;">
+                                    To initiate sync of Magento products, customers and orders head back<a href="http://www.orderhive.com/free-trial.html" target="_blank"> to your Orderhive account</a> and follow the below steps:
+                                </span>
+                                <span style="float: left; display: block; width: 100%;font-size:11px;color:#2F2F2F;margin-top:5px;">
+                                    1. Go to ‘Channels’.
+                                </span>
+                                <span style="float: left; display: block; width: 100%;font-size:11px;color:#2F2F2F;margin-top:5px;">
+                                    2. Go to ‘Add Magento channel’> Click on ‘More information'.
+                                </span>
+                                <span style="float: left; display: block; width: 100%;font-size:11px;color:#2F2F2F;margin-top:5px;">
+                                    3. Follow the steps specified in the tab.
+                                </span>
+                                <span style="float: left; display: block; width: 100%;font-size:11px;color:#2F2F2F;margin-top:5px;">
+                                    4. Click on 'Settings', fill in the required details of your Magento Store.
+                                </span>
+                                <span style="float: left; display: block; width: 100%;font-size:11px;color:#2F2F2F;margin-top:5px;">
+                                    5. Click on ‘Submit’.
+                                </span>
+                                <span style="float: left; display: block; width: 100%;font-size:11px;color:#2F2F2F;margin-top:5px;">
+                                    Orderhive will now start bringing products, orders and customers from your Magento store.
+                                </span>
+                                ]]>
+                            </comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </allow>
+                    </fields>
+                </ecomm>
+            </groups>
+        </ecomm>
+    </sections>
+</config>

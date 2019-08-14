@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Yfs_Ecomm</name>
+    <version>1.0.6</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Orderhive allows admin to manage inventory, orders, shipping and contacts from a single interface.</summary>
+    <description>Orderhive-Integration Extension for Magento will provide smooth and reliable APIs (products, customers and sales orders) for sharing large amount of data between your store and Orderhive without affecting your store performance. It provides an interface to revoke permission from Orderhive in order to stop API calls.</description>
+    <notes>Product inventory update will change product's in stock/out of stock status.</notes>
+    <authors><author><name>Jayneel</name><user>jayneel</user><email>jayneel@openxcell.com</email></author><author><name>Niyati</name><user>niyati7</user><email>niyati@openxcelltechnolabs.com</email></author></authors>
+    <date>2016-03-22</date>
+    <time>10:50:55</time>
+    <contents><target name="magelocal"><dir name="Yfs"><dir name="Ecomm"><dir name="Helper"><file name="Data.php" hash="ed76f9874e036fedc5729f5afdbec816"/></dir><dir name="Model"><dir name="Catalog"><dir name="Api"><file name="V2.php" hash="d2ae4c190ac305c97c5d5f305e6201e3"/></dir></dir><dir name="Customer"><dir name="Api"><file name="V2.php" hash="454cab3b2928ccc671338d638b9e7d07"/></dir></dir><dir name="Sales"><dir name="Api"><file name="V2.php" hash="75884f191c1baca792f96768919e781a"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="bbc34dd5b03a63b1d029408a42307d53"/><file name="api.xml" hash="17686a001997f438f72442124bbb4ec9"/><file name="config.xml" hash="424f465679881b4cdd5375bf315d4f34"/><file name="system.xml" hash="748d8877c7bcffa6558bd70d157cfcef"/><file name="wsdl.xml" hash="e04abc607f8e58062c66eb613883a78f"/><file name="wsi.xml" hash="2f010dc0a5385dd561b6d5750d128e30"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Yfs_Ecomm.xml" hash="08fcae739eadbee91bad139fe1f684a6"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

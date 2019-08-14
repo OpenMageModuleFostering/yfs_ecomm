@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <api>
+        <resources>
+            <ecomm_catalog translate="title" module="ecomm">
+                <model>yfs_ecomm_model_catalog_api</model>
+                <title>Product API</title>
+                <methods>
+                    <getProductCount translate="title" module="ecomm">
+                        <title>Retrieve Product Count</title>
+                    </getProductCount>
+                    <getProductList translate="title" module="ecomm">
+                        <title>Retrieve Product List</title>
+                    </getProductList>
+                    <updateProduct translate="title" module="ecomm">
+                        <title>Update Product</title>
+                    </updateProduct>
+                    <extensionEnabled translate="title" module="ecomm">
+                        <title>Check Extension</title>
+                    </extensionEnabled>
+                </methods>
+            </ecomm_catalog>
+            <ecomm_customer translate="title" module="ecomm">
+                <model>yfs_ecomm_model_customer_api</model>
+                <title>Customer API</title>
+                <methods>
+                    <getCustomerCount translate="title" module="ecomm">
+                        <title>Retrieve Customer Count</title>
+                    </getCustomerCount>
+                    <getCustomerList translate="title" module="ecomm">
+                        <title>Retrieve Customer List</title>
+                    </getCustomerList>
+                </methods>
+            </ecomm_customer>
+            <ecomm_sales translate="title" module="ecomm">
+                <model>yfs_ecomm_model_sales_api</model>
+                <title>Order API</title>
+                <methods>
+                    <getOrderCount translate="title" module="ecomm">
+                        <title>Retrieve Order Count</title>
+                    </getOrderCount>
+                    <getOrderList translate="title" module="ecomm">
+                        <title>Retrieve Order List</title>
+                    </getOrderList>
+                    <getTaxConfig translate="title" module="ecomm">
+                        <title>Retrieve Tax Configuration</title>
+                    </getTaxConfig>
+                    <updateOrderStatus translate="title" module="ecomm">
+                        <title>Update Order Status</title>
+                    </updateOrderStatus>
+                    <getOrderStatus translate="title" module="ecomm">
+                        <title>Retrieve Order Status</title>
+                    </getOrderStatus>
+                </methods>
+            </ecomm_sales>
+        </resources>
+        <v2>
+            <resources_function_prefix>
+                <ecomm_catalog>Catalog</ecomm_catalog>
+                <ecomm_customer>Customer</ecomm_customer>
+                <ecomm_sales>Sales</ecomm_sales>
+            </resources_function_prefix>
+        </v2>
+    </api>
+</config>

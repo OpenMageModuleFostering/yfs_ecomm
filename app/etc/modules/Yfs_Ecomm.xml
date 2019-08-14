@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Yfs_Ecomm>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Yfs_Ecomm>
+	</modules>
+</config>
