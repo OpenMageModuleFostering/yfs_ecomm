@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Yfs_Ecomm",
+    "name": "openmage-module-fostering\/yfs_ecomm",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Orderhive allows admin to manage inventory, orders, shipping and contacts from a single interface.",
     "authors": [
